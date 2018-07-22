@@ -23,7 +23,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "231598432033.dkr.ecr.us-east-1.amazonaws.com/myrepo-php:latest",
+      "image": "231598432033.dkr.ecr.us-east-1.amazonaws.com/myrepo-php:7-fpm",
       "essential": true,
       "memoryReservation": 512,
       "mountPoints": [
