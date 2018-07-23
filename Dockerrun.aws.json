@@ -23,7 +23,7 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "231598432033.dkr.ecr.us-east-1.amazonaws.com/myrepo-php:7-fpm",
+      "image": "231598432033.dkr.ecr.us-east-1.amazonaws.com/php-fpm:5.6",
       "essential": true,
       "memoryReservation": 512,
       "mountPoints": [
@@ -45,7 +45,7 @@
     },
     {
       "name": "nginx-proxy",
-      "image": "231598432033.dkr.ecr.us-east-1.amazonaws.com/myrepo :latest",
+      "image": "231598432033.dkr.ecr.us-east-1.amazonaws.com/nginx-demo:latest",
       "essential": true,
       "memory": 128,
       "portMappings": [
